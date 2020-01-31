@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sign Up Sing In</string>
+    <string name="etNombreUsuario">Username</string>
+    <string name="etContra">Password</string>
+    <string name="btnRegistrar">Sign up</string>
+    <string name="btnAcceder">Sign in</string>
+    <string name="btnVolver">Back</string>
+    <string name="tvBienvenido">Welcome</string>
+    <string name="email">Email</string>
+    <string name="nombre">Name</string>
+    <string name="repContra">Confirm password</string>
+    <string name="errorLogic">Problems with the server, try it later.</string>
+    <string name="errorEspera">The server is not currently available.</string>
+    <string name="errorServer">Server problems.</string>
+    <string name="errorDAO">Problems with the database, try it later.</string>
+    <string name="errorPassword">Wrong password.</string>
+    <string name="errorIDLogin">User name it is incorrect.</string>
+    <string name="errorIDExiste">Username already exists.</string>
+    <string name="correcto">Registration successfully completed.</string>
+    <string name="errorContrasenaDebil">Password weak minimum 3 characters.</string>
+    <string name="errorContrasenasIncorrectas">Passwords do not match.</string>
+    <string name="error">Error.</string>
+    <string name="huboError">There was an error.</string>
+    <string name="noInternet">You don\'t have internet connection.</string>
+    <string name="campoVacio">Must fill every textfield.</string>
+    <!-- GENERALES -->
+    <string name="g1">Unfiltered</string>
+    <string name="g2">ABC...</string>
+    <string name="g3">ZYX</string>
+    <string name="g4">Asc. price</string>
+    <string name="g5">Desc. price</string>
+    <string name="tx1">Modified</string>
+    <string name="g6">Search</string>
+    <string name="g7">Refresh</string>
+    <string name="g8">Search</string>
+    <string name="g9">Note downloaded in the downloads folder</string>
+    <string name="g10">Remember</string>
+    <string name="g11">Forgot password?</string>
+    <!-- GESTOR DE APUNTE -->
+    <string name="gda1">An error occurred</string>
+    <string name="gda2">There was a connection failure</string>
+    <string name="gda3">Notes Manager</string>
+    <!-- VisorApunteEditableAdmin-->
+    <string name="vaea1">The description has to be between 3 to 250 Char.</string>
+    <string name="vaea2">The title has to be between 3 to 250 Char.</string>
+    <string name="vaea3">You are sure to delete the note?</string>
+    <string name="vaea4">YES</string>
+    <string name="vaea5">Cancel</string>
+    <string name="vaea6">The note has already been purchased</string>
+    <string name="vaea7">Erased</string>
+    <string name="vaea8">Title</string>
+    <string name="vaea9">Validation</string>
+    <string name="vaea10">Delete</string>
+    <string name="vaea11">Update</string>
+    <string name="vaea12">Description</string>
+    <!-- MisApuntes -->
+    <string name="ma1">Note created</string>
+    <string name="ma2">Note modified</string>
+    <string name="ma3">My notes</string>
+    <string name="ma4">Create note</string>
+    <!-- CrearApunte -->
+    <string name="ca1">You need a note in PDF format.</string>
+    <string name="ca2">The note:</string>
+    <string name="ca3">was created</string>
+    <string name="ca4">You have exceeded the maximum price of a note.</string>
+    <string name="ca5">The price has to be over  0.30€</string>
+    <string name="ca6">Upload PDF</string>
+    <string name="ca7">Create</string>
+    <string name="ca8">Price</string>
+    <!-- VisorApunteEditable -->
+    <string name="vad1">it was modified</string>
+    <string name="vad3">The note has already been purchased</string>
+    <string name="vad4">Download</string>
+    <string name="vad2">Erased</string>
+    <string name="vad5">Permission Needed</string>
+    <string name="vad6">This permission is necessary to download the note.</string>
+    <string name="vad7">Permission GRANTED</string>
+    <string name="vad8">Permission DENIED</string>
+    <!-- TiendaApuntes -->
+    <string name="ta1">Note Shop</string>
+    <!-- VisorApunte -->
+    <string name="va1">Once you buy the note it cannot be returned. Do you want to buy the note</string>
+    <string name="va2">Purchase note</string>
+    <string name="va3">Your balance</string>
+    <string name="va4">Your new balance</string>
+    <string name="va5">Purchase</string>
+    <!-- Botones cliente -->
+    <string name="btnMenuClienteTiendaApunte">Notes Shop</string>
+    <string name="btnMenuClienteTiendaPack">Packages Shop</string>
+    <string name="btnMenuClienteBiblioteca">Library</string>
+    <string name="btnMenuClienteMiPerfil">My profile</string>
+    <string name="btnMenuClienteSubirApunte">Upload note</string>
+    <!-- Botones admin -->
+    <string name="btnMenuAdminApunte">Notes</string>
+    <string name="btnMenuAdminPack">Packs</string>
+    <string name="btnMenuAdminOferta">Offers</string>
+    <string name="btnMenuAdminMaterias">Subjects</string>
+    <!-- recuperar contraseña -->
+    <string name="recuTitulo">Recover password</string>
+    <string name="recuFrase">Enter your login</string>
+    <string name="recuLogin">Login</string>
+    <string name="recuEnviar">Enviar</string>
+    <string name="recuFinal">Check your email associated with this account</string>
+    <string name="recuRevisa">Login does not exist</string>
+    <!-- materia -->
+    <string name="salir">Are you sure you want to leave?</string>
+    <string name="btnSi">Yes</string>
+    <string name="btnNo">No</string>
+    <string name="btnOk">OK</string>
+    <string name="btnCancelar">Cancel</string>
+    <string name="conf">Settings</string>
+    <string name="materiaCreate">Subject created correctly</string>
+    <string name="packCreate">Pack created correctly</string>
+    <string name="materiaModif">Subject modified correctly</string>
+    <string name="packModif">Pack modified correctly</string>
+    <string name="materiaElim">Subject removed correctly</string>
+    <string name="packElim">Pack removed correctly</string>
+    <string name="noDeleteMateria">Subject cannot be eliminated, there are notes belonging to it</string>
+    <string name="alertConfirmationDeleteMateria">Are you sure you want to remove subject?</string>
+    <string name="alertConfirmationDeletePack">Are you sure you want to remove the pack?</string>
+    <string name="btnMenuGestorPack">Pack</string>
+    <string name="btnMenuGestorMateria">Subject</string>
+    <string name="btnMenuGestorApunte">Note</string>
+    <string name="btnMenuGestorOferta">Offert</string>
+    <string name="btnMenuGestorPerfil">Perfil</string>
+    <string name="btnCrear">Create</string>
+    <string name="btnModificar">Modify</string>
+    <string name="btnEliminar">Delete</string>
+    <string name="btnVisualizar">List</string>
+    <string name="hintMateriaTituloMateria">Subject Title</string>
+    <string name="hintMateriaDescripcionMateria">Subject description</string>
+    <string name="hintPackTituloPack">Pack Title</string>
+    <string name="hintPackDescripcionPack">Pack description</string>
+    <string name="rellenarCampos">You must fill all the fields</string>
+    <string name="titulo">Title</string>
+    <string name="descripcion">Description</string>
+    <!-- perfil -->
+    <string name="cancelarContrasenia">Cancel password</string>
+    <string name="actualizarContrasenia">Update password</string>
+    <string name="btnAceptar">Ok</string>
+    <string name="actualizarPerfil">Update profile</string>
+    <!-- biblioteca -->
+    <string name="btnBuscar">search</string>
+    <string name="like">Like</string>
+    <string name="descargar">Download</string>
+    <string name="dislike">Dislike</string>
+    <string name="Mas">More</string>
+    <string name="Refrescar">Refresh</string>
+    <string name="Rebaja">Offert</string>
+    <string name="FechaInicio">Start date</string>
+    <string name="FechaFin">End date</string>
+    <string name="btnBorrar">Delete</string>
+    <string name="tienesTodos">You have all the notes of this pack purchased</string>
+    <string name="seguroComprarPack">Are you sure you want to buy this pack?</string>
+    <string name="unaVezComp">Once purchased it cannot be returned</string>
+    <string name="packComprado">You have bought the pack</string>
+    <string name="btnComprarPack">Buy</string>
+    <string name="precio">Price:</string>
+</resources>

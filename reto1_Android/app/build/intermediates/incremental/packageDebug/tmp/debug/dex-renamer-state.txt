@@ -1,0 +1,7 @@
+#Fri Nov 08 10:48:33 CET 2019
+base.0=C\:\\Users\\2dam.MACINF01\\Desktop\\reto1_Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\2dam.MACINF01\\Desktop\\reto1_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

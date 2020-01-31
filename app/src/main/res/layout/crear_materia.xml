@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CrearMateriaActivity">
+
+
+    <Button
+        android:id="@+id/btnCrearMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ui_rectangle"
+        android:onClick="btnCrearMateria"
+        android:text="@string/btnCrear"
+        app:layout_constraintEnd_toStartOf="@+id/gldeCrearMateria"
+        app:layout_constraintStart_toStartOf="@+id/glizCrearMateria"
+        app:layout_constraintTop_toTopOf="@+id/glbottomCrearMateria" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gltopCrearMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glbottomCrearMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glizCrearMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gldeCrearMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <EditText
+        android:id="@+id/etTituloMateriaCrearMateria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hintMateriaTituloMateria"
+        android:inputType="textPersonName"
+        android:maxLength="255"
+        app:layout_constraintEnd_toStartOf="@+id/gldeCrearMateria"
+        app:layout_constraintStart_toStartOf="@+id/glizCrearMateria"
+        app:layout_constraintTop_toTopOf="@+id/gltopCrearMateria" />
+
+    <EditText
+        android:id="@+id/etDescripcionMateriaCrearMateria"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/hintMateriaDescripcionMateria"
+        android:inputType="textPersonName"
+        android:maxLength="255"
+        app:layout_constraintBottom_toTopOf="@+id/glbottomCrearMateria"
+        app:layout_constraintEnd_toStartOf="@+id/gldeCrearMateria"
+        app:layout_constraintStart_toStartOf="@+id/glizCrearMateria"
+        app:layout_constraintTop_toBottomOf="@+id/etTituloMateriaCrearMateria" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

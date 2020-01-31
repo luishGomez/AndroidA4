@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sign Up Sing In</string>
+    <string name="etNombreUsuario">Nombre de usuario</string>
+    <string name="etContra">Contraseña</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnAcceder">Acceder</string>
+    <string name="btnVolver">Volver</string>
+    <string name="tvBienvenido">Bienvenido</string>
+    <string name="email">Email</string>
+    <string name="nombre">Nombre</string>
+    <string name="repContra">Confirma la contraseña</string>
+    <string name="errorLogic">Problemas con el servidor, inténtelo en un rato.</string>
+    <string name="errorEspera">El servidor no se encuentra disponible en estos momentos.</string>
+    <string name="errorServer">Problemas con el servidor.</string>
+    <string name="errorDAO">Problemas con la base de datos, inténtelo en un rato.</string>
+    <string name="errorPassword">Contraseña incorrecta.</string>
+    <string name="errorIDLogin">Nombre de usuario incorrecto.</string>
+    <string name="errorIDExiste">Nombre de usuario ya existe.</string>
+    <string name="correcto">Resgistro completado satisfactoriamente.</string>
+    <string name="errorContrasenaDebil">La contraseña debil minimo 3 caracteres.</string>
+    <string name="errorContrasenasIncorrectas">Las contraseñas no coinciden.</string>
+    <string name="error">Error.</string>
+    <string name="huboError">Hubo un error.</string>
+    <string name="noInternet">No tienes conexión a internet.</string>
+    <string name="campoVacio">Debes rellenar todos los campos.</string>
+    <!-- GENERALES -->
+    <string name="g1">Sin filtro</string>
+    <string name="g2">ABC...</string>
+    <string name="g3">ZYX</string>
+    <string name="g4">Precio asc.</string>
+    <string name="g5">Precio desc.</string>
+    <string name="tx1">Modificado</string>
+    <string name="g6">Buscar</string>
+    <string name="g7">Refrescar</string>
+    <string name="g8">Busqueda</string>
+    <string name="g9">Apunte descargado en la carpeta descargas</string>
+    <string name="g10">Recordar</string>
+    <string name="g11">¿Contraseña olvidad?</string>
+    <!-- GESTOR DE APUNTE -->
+    <string name="gda1">A ocurrio un error</string>
+    <string name="gda2">Hubo un fallo en la conexión</string>
+    <string name="gda3">Gestor de Apuntes</string>
+    <!-- VisorApunteEditableAdmin-->
+    <string name="vaea1">La descripción tiene que ser entre 3 a 250 Car.</string>
+    <string name="vaea2">El titulo tiene que ser entre 3 a 250 Car.</string>
+    <string name="vaea3">¿Estas seguro de borrar el apunte?</string>
+    <string name="vaea4">SI</string>
+    <string name="vaea5">Cancelar</string>
+    <string name="vaea6">El apunte ya a sido comprado</string>
+    <string name="vaea7">Borrado</string>
+    <string name="vaea8">Titulo</string>
+    <string name="vaea9">Validación</string>
+    <string name="vaea10">Borrar</string>
+    <string name="vaea11">Actualizar</string>
+    <string name="vaea12">Descripción</string>
+    <!-- MisApuntes -->
+    <string name="ma1">Apunte creado</string>
+    <string name="ma2">Apunte modificado</string>
+    <string name="ma3">Mis apuntes</string>
+    <string name="ma4">Crear apunte</string>
+    <!-- CrearApunte -->
+    <string name="ca1">Es necesario un apunte en formato PDF.</string>
+    <string name="ca2">El apunte:</string>
+    <string name="ca3">fue creado</string>
+    <string name="ca4">A superado el precio maximo de un apunte.</string>
+    <string name="ca5">El precio tiene que ser superior a 0,30€</string>
+    <string name="ca6">Subir PDF</string>
+    <string name="ca7">Crear</string>
+    <string name="ca8">Precio</string>
+    <!-- VisorApunteEditable -->
+    <string name="vad1">fue modificado</string>
+    <string name="vad3">El apunte ya a sido comprado</string>
+    <string name="vad4">Descargar</string>
+    <string name="vad2">Borrado</string>
+    <string name="vad5">Permiso necesario</string>
+    <string name="vad6">Este permiso es necesario apra descargar el apunte.</string>
+    <string name="vad7">Permiso concedido</string>
+    <string name="vad8">Permiso denegado</string>
+    <!-- TiendaApuntes -->
+    <string name="ta1">Tienda de apuntes</string>
+    <!-- VisorApunte -->
+    <string name="va1">Una vez que compres el apunte no se podra devolver. ¿Quieres comprar el apunte</string>
+    <string name="va2">Apunte comprado</string>
+    <string name="va3">Tu saldo</string>
+    <string name="va4">Tu nuevo saldo</string>
+    <string name="va5">Comprar</string>
+    <!-- Botones cliente -->
+    <string name="btnMenuClienteTiendaApunte">Tienda de Apuntes</string>
+    <string name="btnMenuClienteTiendaPack">Tienda de Paquetes</string>
+    <string name="btnMenuClienteBiblioteca">Biblioteca</string>
+    <string name="btnMenuClienteMiPerfil">Mi Perfil</string>
+    <string name="btnMenuClienteSubirApunte">Subir Apunte</string>
+    <!-- Botones admin -->
+    <string name="btnMenuAdminApunte">Apuntes</string>
+    <string name="btnMenuAdminPack">Paquetes</string>
+    <string name="btnMenuAdminOferta">Ofertas</string>
+    <string name="btnMenuAdminMaterias">Materias</string>
+    <!-- recuperar contraseña -->
+    <string name="recuTitulo">Recuperar contraseña</string>
+    <string name="recuFrase">Inserte su login</string>
+    <string name="recuLogin">Login</string>
+    <string name="recuEnviar">Enviar</string>
+    <string name="recuFinal">Revisa tu correo asociado a esta cuenta</string>
+    <string name="recuRevisa">Login no existente</string>
+    <!-- materia -->
+    <string name="salir">¿Estas seguro que desea salir?</string>
+    <string name="btnSi">Si</string>
+    <string name="btnNo">No</string>
+    <string name="btnOk">Vale</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="conf">Ajustes</string>
+    <string name="materiaCreate">Materia creada correctamente</string>
+    <string name="packCreate">Pack creado correctamente</string>
+    <string name="materiaModif">Materia modificada correctamente</string>
+    <string name="packModif">Pack modificado correctamente</string>
+    <string name="materiaElim">Materia eliminada correctamente</string>
+    <string name="packElim">Pack eliminado correctamente</string>
+    <string name="noDeleteMateria">La materia no puede ser eliminada, existen apuntes pertenecientes a ella</string>
+    <string name="alertConfirmationDeleteMateria">¿Estas seguro que desea eliminar la materia?</string>
+    <string name="alertConfirmationDeletePack">¿Estas seguro que desea eliminar el pack?</string>
+    <string name="btnMenuGestorPack">Pack</string>
+    <string name="btnMenuGestorMateria">Materia</string>
+    <string name="btnMenuGestorApunte">Apunte</string>
+    <string name="btnMenuGestorOferta">Oferta</string>
+    <string name="btnMenuGestorPerfil">Perfil</string>
+    <string name="btnCrear">Crear</string>
+    <string name="btnModificar">Modificar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="btnVisualizar">Listado</string>
+    <string name="hintMateriaTituloMateria">Titulo de la materia</string>
+    <string name="hintMateriaDescripcionMateria">Descripcion de la materia</string>
+    <string name="hintPackTituloPack">Titulo del pack</string>
+    <string name="hintPackDescripcionPack">Descripcion del pack</string>
+    <string name="rellenarCampos">Debes rellenar todos los campos</string>
+    <string name="titulo">Título</string>
+    <string name="descripcion">Descripción</string>
+    <!-- perfil -->
+    <string name="cancelarContrasenia">Cancelar contraseña</string>
+    <string name="actualizarContrasenia">Actualizar contraseñs</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="actualizarPerfil">Actualizar perfil</string>
+    <!-- biblioteca -->
+    <string name="btnBuscar">Buscar</string>
+    <string name="like">Like</string>
+    <string name="descargar">Descargar</string>
+    <string name="dislike">Dislike</string>
+    <string name="Mas">Más</string>
+    <string name="Refrescar">Refrescar</string>
+    <string name="Rebaja">Rebaja</string>
+    <string name="FechaInicio">Fecha inicio</string>
+    <string name="FechaFin">Fecha fin</string>
+    <string name="btnBorrar">Borrar</string>
+    <string name="tienesTodos">Tienes todos los apuntes de este pack comprado</string>
+    <string name="seguroComprarPack">¿Estas seguro que desea comprar este pack?</string>
+    <string name="unaVezComp">Una vez comprado no se podrá devolver</string>
+    <string name="packComprado">Has comprado el pack</string>
+    <string name="btnComprarPack">Comprar</string>
+    <string name="precio">Precio:</string>
+</resources>

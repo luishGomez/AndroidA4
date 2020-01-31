@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reto1_android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icono"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.reto1_android.Activity.PasswordForgot" />
+        <activity android:name="com.example.reto1_android.Activity.MenuAdmin" />
+        <activity android:name="com.example.reto1_android.Activity.MenuCliente" />
+        <activity android:name="com.example.reto1_android.Activity.VisualizadorPdf" />
+        <activity android:name="com.example.reto1_android.Activity.VisorApunteEditableAdmin" />
+        <activity
+            android:name="com.example.reto1_android.Activity.MisApuntes"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.example.reto1_android.Activity.CrearApunte" />
+        <activity android:name="com.example.reto1_android.Activity.VisorApunteEditable" />
+        <activity android:name="com.example.reto1_android.Activity.VisorApunte" />
+        <activity
+            android:name="com.example.reto1_android.Activity.TiendaApuntes"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.reto1_android.Activity.GestorDeApuntes"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.example.reto1_android.Activity.RegistroActivity" />
+        <activity android:name="com.example.reto1_android.Activity.PrincipalActivity" />
+        <activity android:name="com.example.reto1_android.Activity.IniciarActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.reto1_android.ui.GestorMateriaActivity" />
+        <activity android:name="com.example.reto1_android.ui.CrearMateriaActivity" />
+        <activity android:name="com.example.reto1_android.ui.ListadoMateriasActivity" />
+        <activity android:name="com.example.reto1_android.ui.ModificarMateriaActivity" />
+        <activity android:name="com.example.reto1_android.Activity.PerfilActivity" />
+        <activity android:name="com.example.reto1_android.ui.GestorPackActivity" />
+        <activity android:name="com.example.reto1_android.ui.CrearPackActivity" />
+        <activity android:name="com.example.reto1_android.ui.ListadoPacksActivity" />
+        <activity android:name="com.example.reto1_android.ui.ModificarPackActivity" />
+        <activity android:name="com.example.reto1_android.Activity.BibliotecaActivity" />
+        <activity android:name="com.example.reto1_android.Activity.BibliotecaApunteLikeDescarga" />
+        <activity android:name="com.example.reto1_android.Activity.GestorOferta" />
+        <activity android:name="com.example.reto1_android.Activity.InsertarOfertaActivity" />
+        <activity android:name="com.example.reto1_android.Activity.ModificarBorrarOfertaActivity" />
+        <activity android:name="com.example.reto1_android.ui.CompraPackActivity" />
+        <activity android:name="com.example.reto1_android.ui.ListadoTiendaPackActivity" />
+    </application>
+
+</manifest>

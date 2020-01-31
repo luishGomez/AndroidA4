@@ -1,0 +1,7 @@
+#Thu Jan 30 22:49:46 CET 2020
+base.0=F\:\\Clase 2DAM\\Moviles\\PM2\\reto1_Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\Clase 2DAM\\Moviles\\PM2\\reto1_Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

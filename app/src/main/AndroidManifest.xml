@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.reto1_android">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icono"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.PasswordForgot"></activity>
+        <activity android:name=".Activity.MenuAdmin" />
+        <activity android:name=".Activity.MenuCliente" />
+        <activity android:name=".Activity.VisualizadorPdf" />
+        <activity android:name=".Activity.VisorApunteEditableAdmin" />
+        <activity
+            android:name=".Activity.MisApuntes"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activity.CrearApunte" />
+        <activity android:name=".Activity.VisorApunteEditable" />
+        <activity android:name=".Activity.VisorApunte" />
+        <activity
+            android:name=".Activity.TiendaApuntes"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Activity.GestorDeApuntes"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".Activity.RegistroActivity" />
+        <activity android:name=".Activity.PrincipalActivity" />
+        <activity android:name=".Activity.IniciarActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.GestorMateriaActivity"></activity>
+        <activity android:name=".ui.CrearMateriaActivity"></activity>
+        <activity android:name=".ui.ListadoMateriasActivity"></activity>
+        <activity android:name=".ui.ModificarMateriaActivity"></activity>
+        <activity android:name=".Activity.PerfilActivity"></activity>
+        <activity android:name=".ui.GestorPackActivity"></activity>
+        <activity android:name=".ui.CrearPackActivity"></activity>
+        <activity android:name=".ui.ListadoPacksActivity"></activity>
+        <activity android:name=".ui.ModificarPackActivity"></activity>
+        <activity android:name=".Activity.BibliotecaActivity"></activity>
+        <activity android:name=".Activity.BibliotecaApunteLikeDescarga"></activity>
+        <activity android:name=".Activity.GestorOferta"></activity>
+        <activity android:name=".Activity.InsertarOfertaActivity"></activity>
+        <activity android:name=".Activity.ModificarBorrarOfertaActivity"></activity>
+        <activity android:name=".ui.CompraPackActivity"></activity>
+        <activity android:name=".ui.ListadoTiendaPackActivity"></activity>
+    </application>
+
+</manifest>

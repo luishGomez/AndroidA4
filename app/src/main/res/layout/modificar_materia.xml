@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ModificarMateriaActivity">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gltopModificarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glbottomModificarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glizModificarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gldeModificarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glmModificarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <EditText
+        android:id="@+id/etTituloMateriaModificarMateria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hintMateriaTituloMateria"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/gldeModificarMateria"
+        app:layout_constraintStart_toStartOf="@+id/glizModificarMateria"
+        app:layout_constraintTop_toTopOf="@+id/gltopModificarMateria" />
+
+    <EditText
+        android:id="@+id/etDescripcionMateriaModificarMateria"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/hintMateriaDescripcionMateria"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/glbottomModificarMateria"
+        app:layout_constraintEnd_toStartOf="@+id/gldeModificarMateria"
+        app:layout_constraintStart_toStartOf="@+id/glizModificarMateria"
+        app:layout_constraintTop_toBottomOf="@+id/etTituloMateriaModificarMateria" />
+
+    <Button
+        android:id="@+id/btnModificarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ui_rectangle"
+        android:onClick="btnModificarMateria"
+        android:text="@string/btnModificar"
+        app:layout_constraintEnd_toStartOf="@+id/glmModificarMateria"
+        app:layout_constraintStart_toStartOf="@+id/glizModificarMateria"
+        app:layout_constraintTop_toTopOf="@+id/glbottomModificarMateria" />
+
+    <Button
+        android:id="@+id/btnEliminarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ui_rectangle"
+        android:onClick="btnEliminarMateria"
+        android:text="@string/btnEliminar"
+        app:layout_constraintEnd_toStartOf="@+id/gldeModificarMateria"
+        app:layout_constraintStart_toStartOf="@+id/glmModificarMateria"
+        app:layout_constraintTop_toTopOf="@+id/glbottomModificarMateria" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reto1_android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:6:5-81
+12-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:7:5-67
+13-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:8:5-79
+14-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <application
+16-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:10:5-61:19
+17        android:allowBackup="true"
+17-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\Usuario\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@drawable/icono"
+20-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:12:9-39
+21        android:label="@string/app_name"
+21-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:13:9-41
+22        android:requestLegacyExternalStorage="true"
+22-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:14:9-52
+23        android:roundIcon="@drawable/icono"
+23-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:15:9-44
+24        android:supportsRtl="true"
+24-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:17:9-40
+27        android:usesCleartextTraffic="true" >
+27-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:18:9-44
+28        <activity android:name="com.example.reto1_android.Activity.PasswordForgot" />
+28-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:19:9-70
+28-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:19:19-58
+29        <activity android:name="com.example.reto1_android.Activity.MenuAdmin" />
+29-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:20:9-56
+29-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:20:19-53
+30        <activity android:name="com.example.reto1_android.Activity.MenuCliente" />
+30-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:21:9-58
+30-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:21:19-55
+31        <activity android:name="com.example.reto1_android.Activity.VisualizadorPdf" />
+31-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:22:9-62
+31-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:22:19-59
+32        <activity android:name="com.example.reto1_android.Activity.VisorApunteEditableAdmin" />
+32-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:23:9-71
+32-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:23:19-68
+33        <activity
+33-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:24:9-26:55
+34            android:name="com.example.reto1_android.Activity.MisApuntes"
+34-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:25:13-48
+35            android:windowSoftInputMode="adjustPan" />
+35-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:26:13-52
+36        <activity android:name="com.example.reto1_android.Activity.CrearApunte" />
+36-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:27:9-58
+36-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:27:19-55
+37        <activity android:name="com.example.reto1_android.Activity.VisorApunteEditable" />
+37-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:28:9-66
+37-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:28:19-63
+38        <activity android:name="com.example.reto1_android.Activity.VisorApunte" />
+38-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:29:9-58
+38-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:29:19-55
+39        <activity
+39-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:30:9-32:55
+40            android:name="com.example.reto1_android.Activity.TiendaApuntes"
+40-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:31:13-51
+41            android:windowSoftInputMode="adjustPan" />
+41-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:32:13-52
+42        <activity
+42-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:33:9-35:55
+43            android:name="com.example.reto1_android.Activity.GestorDeApuntes"
+43-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:34:13-53
+44            android:windowSoftInputMode="adjustPan" />
+44-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:35:13-52
+45        <activity android:name="com.example.reto1_android.Activity.RegistroActivity" />
+45-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:36:9-63
+45-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:36:19-60
+46        <activity android:name="com.example.reto1_android.Activity.PrincipalActivity" />
+46-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:37:9-64
+46-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:37:19-61
+47        <activity android:name="com.example.reto1_android.Activity.IniciarActivity" >
+47-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:38:9-44:20
+47-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:38:19-59
+48            <intent-filter>
+48-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:39:13-43:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:40:17-69
+49-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:40:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:42:17-77
+51-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:42:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.example.reto1_android.ui.GestorMateriaActivity" />
+54-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:45:9-71
+54-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:45:19-59
+55        <activity android:name="com.example.reto1_android.ui.CrearMateriaActivity" />
+55-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:46:9-70
+55-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:46:19-58
+56        <activity android:name="com.example.reto1_android.ui.ListadoMateriasActivity" />
+56-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:47:9-73
+56-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:47:19-61
+57        <activity android:name="com.example.reto1_android.ui.ModificarMateriaActivity" />
+57-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:48:9-74
+57-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:48:19-62
+58        <activity android:name="com.example.reto1_android.Activity.PerfilActivity" />
+58-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:49:9-70
+58-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:49:19-58
+59        <activity android:name="com.example.reto1_android.ui.GestorPackActivity" />
+59-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:50:9-68
+59-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:50:19-56
+60        <activity android:name="com.example.reto1_android.ui.CrearPackActivity" />
+60-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:51:9-67
+60-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:51:19-55
+61        <activity android:name="com.example.reto1_android.ui.ListadoPacksActivity" />
+61-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:52:9-70
+61-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:52:19-58
+62        <activity android:name="com.example.reto1_android.ui.ModificarPackActivity" />
+62-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:53:9-71
+62-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:53:19-59
+63        <activity android:name="com.example.reto1_android.Activity.BibliotecaActivity" />
+63-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:54:9-74
+63-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:54:19-62
+64        <activity android:name="com.example.reto1_android.Activity.BibliotecaApunteLikeDescarga" />
+64-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:55:9-84
+64-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:55:19-72
+65        <activity android:name="com.example.reto1_android.Activity.GestorOferta" />
+65-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:56:9-68
+65-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:56:19-56
+66        <activity android:name="com.example.reto1_android.Activity.InsertarOfertaActivity" />
+66-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:57:9-78
+66-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:57:19-66
+67        <activity android:name="com.example.reto1_android.Activity.ModificarBorrarOfertaActivity" />
+67-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:58:9-85
+67-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:58:19-73
+68        <activity android:name="com.example.reto1_android.ui.CompraPackActivity" />
+68-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:59:9-68
+68-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:59:19-56
+69        <activity android:name="com.example.reto1_android.ui.ListadoTiendaPackActivity" />
+69-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:60:9-75
+69-->F:\Clase 2DAM\Moviles\PM2\reto1_Android\app\src\main\AndroidManifest.xml:60:19-63
+70    </application>
+71
+72</manifest>

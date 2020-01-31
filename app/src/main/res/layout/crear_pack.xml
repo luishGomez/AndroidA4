@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CrearPackActivity">
+
+
+    <Button
+        android:id="@+id/btnCrearPack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ui_rectangle"
+        android:onClick="btnCrearPack"
+        android:text="@string/btnCrear"
+        app:layout_constraintEnd_toStartOf="@+id/gldeCrearPack"
+        app:layout_constraintStart_toStartOf="@+id/glizCrearPack"
+        app:layout_constraintTop_toTopOf="@+id/glbottomCrearPack" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gltopCrearPack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glbottomCrearPack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glizCrearPack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gldeCrearPack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <EditText
+        android:id="@+id/etTituloCrearPack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:hint="@string/hintPackTituloPack"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/gldeCrearPack"
+        app:layout_constraintStart_toStartOf="@+id/glizCrearPack"
+        app:layout_constraintTop_toTopOf="@+id/gltopCrearPack" />
+
+    <EditText
+        android:id="@+id/etDescripcionCrearPack"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/hintPackDescripcionPack"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/glbottomCrearPack"
+        app:layout_constraintEnd_toStartOf="@+id/gldeCrearPack"
+        app:layout_constraintStart_toStartOf="@+id/glizCrearPack"
+        app:layout_constraintTop_toBottomOf="@+id/etTituloCrearPack" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
